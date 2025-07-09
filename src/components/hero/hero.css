@@ -15,13 +15,14 @@
 
 .hImg {
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 50%;
    transform: translate(-50%, -50%); /*Center it inside canvas */ 
   width: 550px; /* or whatever fits your bubble */
   height: auto;
   z-index: 2; /* above canvas */
   pointer-events: none;
+  overflow: hidden;
 }
 
 .hImg img {
@@ -242,7 +243,10 @@
     text-align: center;
     gap: 36px;
   }
-
+ .hImg {
+    width: 300px;
+    top: 45%;
+  }
   .hTitle {
     font-size: 48px;
   }
