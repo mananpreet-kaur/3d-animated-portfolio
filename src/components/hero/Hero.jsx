@@ -143,7 +143,7 @@ const Hero = () => {
         </motion.div>
         {/* CONTACT BUTTON */}
         <motion.a
-          href="/#contact"
+          href="#contact"
           className="contactLink"
           animate={{
             x: [200, 0],
